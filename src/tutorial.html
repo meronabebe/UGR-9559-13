@@ -1,82 +1,110 @@
 <html lang="en">
-    <head>
-        <h3 size="10px"> Logo </h3>
-        <nav align="center">
-            <a href="webc.html"> home</a>|
+    <head >
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="cssjs/navigation.css">
+        <link rel="stylesheet" href="cssjs/footer.css">
+        <link rel="stylesheet" href="cssjs/tutorial.css">
+        <script defer src="cssjs/navigation.js"></script>
+        <section class="header">
+            <h3 class="logo"> Logo </h3>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <nav class="nav">
+                
+                <ul>
+                    <li><a href="webc.html"> home</a></li>
             
-            <a href="about us.html"> about us</a>|
+                    <li><a href="about us.html"> about us</a></li>
             
-            <a href="contact.html"> contact</a>|
+                    <li><a href="contact.html"> contact</a></li>
             
-            <a href="courses.html"> courses</a>|
+                    <li><a href="courses.html"> courses</a></li>
            
-            <a href="tutorial.html"> tutorial</a>|
+                    <li><a href="tutorial.html"> tutorial</a></li>
             
-            <a href="login.html"> Login</a>
-        </nav>
+                    <li><a href="login.html"> Login</a></li>
+                </ul>
+                
+            </nav>
+        </section>
     </head>
     <body>
-        <h3>videos</h3><br>
-        <video width="320" height="240" controls>
-            <source src="videos/respiratory4.mp4" type="video/mp4">
-            <track src="/captions_file.vtt" label="English" kind="captions" srclang="en-us" default >
-        </video>
-        <video width="320" height="240" controls>
-            <source src="videos/renal1.mp4" type="video/mp4">
-            <track src="/captions_file.vtt" label="English" kind="captions" srclang="en-us" default >
-        </video>
-        <video width="320" height="240" controls>
-    
-            <source src="videos/renal2.mp4" type="video/mp4">
-            <track src="/captions_file.vtt" label="English" kind="captions" srclang="en-us" default >
-        </video>
-        <video width="320" height="240" controls>
-            <source src="videos/respiratory2.mp4" type="video/mp4">
-            <track src="/captions_file.vtt" label="English" kind="captions" srclang="en-us" default >
-        </video>
-        <pre> <h3>    respiratory system                   renal system                               renal system                          respiratory system</h3></pre>
-        
-          
-        <br><br>
-        <h3>audios</h3><br>
-        
-        <p>
-            respiratory system
-            <audio controls>
+        <section class="container-tutorial">
+            <section class="video">
+                <h2>videos</h2>
+                <video width="320" height="240" controls>
+                    <source src="videos/respiratory4.mp4" type="video/mp4">
+                    <track src="/captions_file.vtt" label="English" kind="captions" srclang="en-us" default >
                 
-                <source src="audio/resp.mp3" type="audio/mp3">
-              
-            </audio>
-        </p>
-        <p>
-            cardiovascular system
-    
-            <audio controls>
+                </video>
                 
-                <source src="audio/cvs.mp3" type="audio/mp3">
-              
-            </audio>
-
-
-
-        </p>
+                <video width="320" height="240" controls>
+                    <source src="videos/renal1.mp4" type="video/mp4">
+                    <track src="/captions_file.vtt" label="English" kind="captions" srclang="en-us" default >
+                    
+                </video>
+               
+                <video width="320" height="240" controls>
+                    <source src="videos/respiratory2.mp4" type="video/mp4">
+                    <track src="/captions_file.vtt" label="English" kind="captions" srclang="en-us" default >
+                    
+                </video>
+                <video width="320" height="240" controls>
+                    <source src="videos/renal2.mp4" type="video/mp4">
+                    <track src="/captions_file.vtt" label="English" kind="captions" srclang="en-us" default >
+                    
+                </video>
+            </section>                                                                               
+            <section class="audio">
+                <h2>audios</h2>
+            
+                <section>
+                    
+                    <audio controls>
+                    
+                        <source src="audio/resp.mp3" type="audio/mp3">
+                  
+                    </audio>
+                    <p>respiratory system</p>
+                </section>
+                <section>
+                    
+        
+                    <audio controls>
+                    
+                        <source src="audio/cvs.mp3" type="audio/mp3">
+                  
+                    </audio>
+                    <p>cardiovascular system</p>
+    
+    
+    
+                </section>
+            </section>
+        </section>
     </body>
-    <hr>
-    <footer>
-   
-        <b>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Logo</b>
-        <p align="center">
-        
-            <a href="webc.html">home</a>  &nbsp; &nbsp;&nbsp;
-            <a href="courses.html">courses</a>
-        </p>
-        <p align="center">
-            <a href="about us.html">about us</a>  &nbsp; &nbsp; &nbsp;
-            <a href="tutorial.html">tutorial</a>
-        </p>
-        <p align="center">
-            <a href="contact.html">contact</a>  &nbsp; &nbsp; &nbsp;
-            <a href="login.html">Login</a>
-        </p>
-    </footer>
+        <footer class="footer">
+           
+    
+            <h3>Logo</h3>
+            <p class="p1">
+            
+                <a href="webc.html">home</a>
+                <a href="courses.html">courses</a>
+            </p>
+            <p class="p2">
+                <a href="about us.html">about us</a>
+                <a href="tutorial.html">tutorial</a>
+            </p>
+            <p class="p3">
+                <a href="contact.html">contact</a>
+                <a href="login.html">Login</a>
+            </p>
+        </footer>
+    </body>
+    
+    
 </html>
