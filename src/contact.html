@@ -1,62 +1,94 @@
 <html lang="en">
-    <head>
-        <h3 size="10px"> Logo </h3>
-        <nav align="center">
-            <a href="webc.html"> home</a>|
+    <head >
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="cssjs/navigation.css">
+        <link rel="stylesheet" href="cssjs/footer.css">
+        <link rel="stylesheet" href="cssjs/contact.css">
+        <script defer src="cssjs/navigation.js"></script>
+        <script defer src="cssjs/feedback.js"></script>
+        
+        <section class="header">
+            <h3 class="logo"> Logo </h3>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <nav class="nav">
+                
+                <ul>
+                    <li><a href="webc.html"> home</a></li>
             
-            <a href="about us.html"> about us</a>|
+                    <li><a href="about us.html"> about us</a></li>
             
-            <a href="contact.html"> contact</a>|
+                    <li><a href="contact.html"> contact</a></li>
             
-            <a href="courses.html"> courses</a>|
+                    <li><a href="courses.html"> courses</a></li>
            
-            <a href="tutorial.html"> tutorial</a>|
+                    <li><a href="tutorial.html"> tutorial</a></li>
             
-            <a href="login.html"> Login</a>
-        </nav>
+                    <li><a href="login.html"> Login</a></li>
+                </ul>
+                
+            </nav>
+        </section>
     </head>
     <body>
-        <br><br><br><br><br><br>
-        <aside style="float:right; width:20%;">
-            <h2>feedback</h2>
-            <form action="webc.html ">
-                <label>Email address*:</label><br>
-                <input type="text"><br>
-                <label>contact number:</label><br>
-                <input type="text"><br>
-                <label>your feedback*:</label><br>
-                <input type="text"><br><br>
-                <input type="submit"><br>
-            </form>
-        </aside>
+        <section class="body-container">
+            <p> 
+                address:----------------------------- <br><br><br>
+                --------------------------------------<br><br> <br><br><br><br>
+                email address:------------------------------<br><br><br>
+                --------------------------------------------<br><br><br><br><br><br><br>
+                contact number:---------------------------------<br><br><br>
+                ------------------------------------------------
+            </p>
+            <aside>
+                
+                <section id="error"></section>
+                <br><br>
+                <form id="form" action="contact.html " method="GET">
+                    <h1>Feedback</h1><br><br><br>
+                    <section class="form-control">
+                        <label for="email">email address*:</label>
+                        <input type="text" id="email" name="email">
+                        
+                    </section>
+                    <section class="form-control">
+                        <label for="contact">contact number:</label>
+                        <input type="text" id="contact" name="contact">
+                        
+                    </section>
+                    <section class="form-control">
+                        <label for="feedback">drop your feedback here*:</label>
+                        <input type="text" id="feedback" name="feedback">
+                        
+                    </section>
+                    <button type="submit">Submit</button>
+                    
+                </form>
+            </aside> 
+        </section>
         
-        <p> adddress:----------------------------- <br>
-            --------------------------------------<br><br> 
-            email address:------------------------------<br>
-            --------------------------------------------<br><br><br>
-            contact number:---------------------------------<br>
-            ------------------------------------------------
-        </p>
+        <footer class="footer">
+           
+    
+            <h3>Logo</h3>
+            <p class="p1">
+            
+                <a href="webc.html">home</a>
+                <a href="courses.html">courses</a>
+            </p>
+            <p class="p2">
+                <a href="about us.html">about us</a>
+                <a href="tutorial.html">tutorial</a>
+            </p>
+            <p class="p3">
+                <a href="contact.html">contact</a>
+                <a href="login.html">Login</a>
+            </p>
+        </footer>
      
     </body>
-    <br><br><br><br><br><br>
-    
-    <hr>
-    <footer>
-   
-        <b>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Logo</b>
-        <p align="center">
-        
-            <a href="webc.html">home</a>  &nbsp; &nbsp;&nbsp;
-            <a href="courses.html">courses</a>
-        </p>
-        <p align="center">
-            <a href="about us.html">about us</a>  &nbsp; &nbsp; &nbsp;
-            <a href="tutorial.html">tutorial</a>
-        </p>
-        <p align="center">
-            <a href="contact.html">contact</a>  &nbsp; &nbsp; &nbsp;
-            <a href="login.html">Login</a>
-        </p>
-    </footer>
+
 </html>
