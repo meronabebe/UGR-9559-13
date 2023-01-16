@@ -1,21 +1,36 @@
 <html>
-    <br><br><br><br>
-    <h1 align="center">Login</h1>
-    <br><br><br>
-    <aside align="center">
-        <form action="webc.html ">
-            <label>email address*:</label><br>
-            <input type="text"><br><br>
-            <label>password*:</label><br>
-            <input type="text"><br><br><br>
-            
-            <input type="submit" value="Login"><br>
-        </form>
-        <br><br><br><br><br>
-    
-        <p>
-            dont have an account?<br>
-            <a href="signup.html">signup-></a>
-        </p>
-    </aside>
+    <head>
+        <link rel="stylesheet" href="cssjs/login.css">
+        <script defer src="cssjs/login.js"></script>
+    </head>
+    <body>
+        <section class="container-login">
+
+            <section class="login-form">
+                <section id="error"></section>
+                
+                <form id="form" action="webc.html " method="GET">
+                    <h1>Login</h1>
+                    <section class="form-control">
+                        <label for="email">email address*:</label>
+                        <input type="text" id="email" name="email">
+                        
+                    </section>
+                    <section class="form-control">
+                        <label for="password">password*:</label>
+                        <input type="text" id="password" name="password">
+                        
+                    </section>
+                    <button type="submit"> Login</button>
+                    
+                </form>
+                <section class="bottom">
+                    <p>
+                        don't have an account?<br>
+                        <a href="signup.html">sign up<i class="arrow right"></i></a>
+                    </p>
+                </section>
+            </section>
+        </section>
+    </body>
 </html>
