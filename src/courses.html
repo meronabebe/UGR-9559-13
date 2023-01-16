@@ -1,65 +1,97 @@
 <html>
-    <head lang="en">
-        <h3 size="10px"> Logo </h3>
-        <nav align="center">
-            <a href="webc.html"> home</a>|
+    <head >
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="cssjs/navigation.css">
+        <link rel="stylesheet" href="cssjs/footer.css">
+        <link rel="stylesheet" href="cssjs/courses.css">
+        <script defer src="cssjs/navigation.js"></script>
+        <section class="header">
+            <h3 class="logo"> Logo </h3>
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <nav class="nav">
+                
+                <ul>
+                    <li><a href="webc.html"> home</a></li>
             
-            <a href="about us.html"> about us</a>|
+                    <li><a href="about us.html"> about us</a></li>
             
-            <a href="contact.html"> contact</a>|
+                    <li><a href="contact.html"> contact</a></li>
             
-            <a href="courses.html"> courses</a>|
+                    <li><a href="courses.html"> courses</a></li>
            
-            <a href="tutorial.html"> tutorial</a>|
+                    <li><a href="tutorial.html"> tutorial</a></li>
             
-            <a href="login.html"> Login</a>
-        </nav>
+                    <li><a href="login.html"> Login</a></li>
+                </ul>
+                
+            </nav>
+        </section>
     </head>
     <body>
-        <h1 align="right">
-            <a href="register.html" >register-></a>
-        </h1>
-        
-        <h3>here are materials for the courses</h3>
-        <br><br>
-        <p>
-            <img src="images/renal.png" alt="image of the kidney">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="images/git.jpg" alt="image of the stomach" height="200px">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="images/cvs.jpg" alt="image of the heart" height="200px">
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="images/respiratory.jpg" alt="image of the lung" height="200px" width="200px" >
-        </p>
-        <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="files/renal.pdf">renal system</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="files/git.pdf">gastrointestinal system</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="files/cvs1.pdf">cardiovascular system</a>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="files/resp.pdf">respiratory system</a>
-        </p>
-        <br><br><br><br><br>
-
+        <section class="container-body">
+            <h1>
+                <a href="register.html" >register<i class="arrow right"></i></a>
+            </h1>
+            <section class="h3">
+                <h3>Here you can find reading materials for the courses</h3>
+            </section>
+            <section class="container-courses">
+                <section class="courses1">
+                    
+                    <section>
+                        <a href="files/renal.pdf">
+                            <img src="images/renal.png" alt="image of the kidney">
+                        </a>
+                        <a href="files/renal.pdf">renal system</a>
+                    </section>
+                    <section>
+                        <a href="files/git.pdf">
+                            <img src="images/git.jpg" alt="image of the stomach">
+                        </a>
+                        <a href="files/git.pdf">gastrointestinal system</a>
+                    </section>
+                </section>
+                    
+                <section class="courses2">
+                    <section>
+                        
+                        <a href="files/cvs1.pdf">
+                            <img src="images/cvs.jpg" alt="image of the heart">
+                        </a>
+                            <a href="files/cvs1.pdf">cardiovascular system</a>
+                    </section>
+                    <section>
+                        <a href="files/resp.pdf">
+                            <img src="images/respiratory.jpg" alt="image of the lung">
+                        </a>
+                            <a href="files/resp.pdf">respiratory system</a>
+                    </section>
+                </section>
+                
+            </section>
+        </section>
+        <footer class="footer">
+            <h3>Logo</h3>
+            <p class="p1">
+                
+                <a href="webc.html">home</a>
+                <a href="courses.html">courses</a>
+            </p>
+            <p class="p2">
+                <a href="about us.html">about us</a>
+                <a href="tutorial.html">tutorial</a>
+            </p>
+            <p class="p3">
+                <a href="contact.html">contact</a>
+                <a href="login.html">Login</a>
+            </p>
+        </footer>
+    
+        </section>
     </body>
-    <hr>
-    <footer>
-   
-        <b>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Logo</b>
-        <p align="center">
-        
-            <a href="webc.html">home</a>  &nbsp; &nbsp;&nbsp;
-            <a href="courses.html">courses</a>
-        </p>
-        <p align="center">
-            <a href="about us.html">about us</a>  &nbsp; &nbsp; &nbsp;
-            <a href="tutorial.html">tutorial</a>
-        </p>
-        <p align="center">
-            <a href="contact.html">contact</a>  &nbsp; &nbsp; &nbsp;
-            <a href="login.html">Login</a>
-        </p>
-    </footer>
+    
 </html>
